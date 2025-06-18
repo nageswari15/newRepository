@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <fieldset style="width:500px">
+            <legend>Personal Details</legend>
+        <lable for="firstname">First Name:</lable>
+       <input type="text" id="firstname" name="firstname" placeholder="Enter your first Name" required
+       title="Enter name with minimum 2 characters"><br><br>
+       <lable for="age">Age:</lable>
+       <input type="number" id="age" placeholder="Enter your Age" min="18" max="25"><br><br>
+       <label for="email"> Email:</label>
+       <input type="email" id="email" name="email"><br><br>
+
+       <label for="pass">Password:</label>
+       <input type="password" id="pass" name="pass"><br><br>
+
+       <label for="dob">DOB:</label>
+    <input type="date" id="dob" placeholder="Enter DOB Here"><br><br>
+    
+
+    <label>Time</label>
+    <input type="time"><br><br>
+    <label>URL</label>
+    <input type="url"><br><br>
+
+    <label>Select  your skills:</label>
+    <input type="checkbox" value="Java programming">Java
+    <input type="checkbox" value="python">Python
+    <input type="checkbox" value="nosql">MongoDB
+    <input type="checkbox" value="MERS">Nodejs<br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+    <input type="radio" name="gender" value="others">Others<br><br>
+    
+
+    <label>Select volume:</label>
+    <input type="range"><br><br>
+
+    <label>Select Color:</label>
+    <input type="color"><br><br>
+
+    <label>Upload Your Files:</label>
+    <input type="file" name="fileupload" accept=".jpg, .png, .pdf"><br><br>
+
+    <label for="city">select Your City:</label>
+    <select id="city">
+        <option>Select</option>
+        <option value="Pune">Pune</option>
+        <option value="Bengaluru">Bengaluru</option>
+        <option value="kadapa">kadapa</option>
+        <option value="Nagpur">Nagpur</option>
+    </select>
+    <br><br>
+    
+       <button type="submit"> Click to here Submit</button>
+    </fieldset>
+    </form>
+    
+</body>
+</html>

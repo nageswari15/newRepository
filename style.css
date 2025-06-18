@@ -1,0 +1,13 @@
+p{
+    color:red;
+}
+.paracontainer{
+    color:white;
+    background-color: black;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}

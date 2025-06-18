@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        /* Creating keyframes 1 */
+        @keyframes fadclr{
+           0%{
+            background-color: aqua;
+            transform: translate(300px, 200px);
+           }
+           25%{
+            background-color: chartreuse;
+            transform: translate(300px, 0);
+           }
+           50%{
+            background-color: blue;
+            transform: translate(0,300px);
+           }
+           100%{
+            background-color: brown;
+            border: 10px solid black;
+            transform: translate(300px, 0);
+           }
+        }
+        .container {
+            height: 200px;width: 200px;
+            background-color: yellow;
+            border: 2px solid black;
+            animation-name: fadclr;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+             
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    
+</body>
+</html>

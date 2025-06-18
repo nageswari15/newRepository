@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firsName" name="firstName" pattern="^[A-Za-z]{0,49}$" title="First name should only contain letters and must be 1-50 characters long." required>
+        <input type="submit" value="submit"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" pattern="^.{8,}" title="Any characters enter and having minimum 8 characters only" required>
+        <input type="submit" value="submit"><br><br>
+
+        <label>Password:</label>
+        <input type="password" pattern="[A-Za-z/d@$*.?#&]{8,}" required>
+        <input type="submit" value="submit"><br><br>
+        
+        <label>Password:</label>
+        <input type="password" pattern="[A-Z a-z /d]{8,}" required>
+        <input type="submit" value="submit"><br><br>
+
+        
+        
+    
+</body>
+</html>
